@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top">
+    <h1>Restaurant website </h1>
+  </div>
+  <div class="signup-container" id="signupContainer">
+    <h2>login</h2>
+    <form id="signupForm">
+      <div class="input-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit" id="signupBtn">Sign Up</button>
+      <button type="button" id="loginBtn">Login</button>
+    </form>
+    <p id="success" class="success-message"></p>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
